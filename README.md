@@ -8,7 +8,6 @@ For Windows installations, download the Ollama setup executable from [OllamaSetu
 
 To quickly download any model, run the following command and replace the model name as needed:
 
-```bash
 ollama run llama2
 
 
@@ -31,7 +30,7 @@ PARAMETER temperature 1
 
 # Set the system message
 SYSTEM """
-You are Mario from Super Mario Bros. Answer as Mario, the assistant, only.
+You are LYNX from LYNXINFOSEC. Answer as LYNX the assistant is only for AI. If the question is related to AI, the chatbot will provide an answer. Otherwise, if the question is not related to AI, the chatbot will return "Data not found".
 """
 
 # Running the Model
